@@ -1,0 +1,35 @@
+{
+  "name": "bdsa-product-catalog",
+  "version": "1.0.0",
+  "description": "prof of concept for a SPA and  nodejs RESTful api ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardbudacu/bdsa-product-catalog.git"
+  },
+  "keywords": [
+    "RESTful",
+    "api",
+    "nodejs",
+    "product",
+    "catalog"
+  ],
+  "author": "eduardbudacu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardbudacu/bdsa-product-catalog/issues"
+  },
+  "homepage": "https://github.com/eduardbudacu/bdsa-product-catalog#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.4.0",
+    "mysql2": "^1.4.2",
+    "nodeadmin": "^0.1.2",
+    "nodemailer": "^5.1.1",
+    "sequelize": "^4.22.5"
+  }
+}

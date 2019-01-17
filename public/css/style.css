@@ -1,0 +1,109 @@
+*:not(input):not(textarea) {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: 'robotoregular', Arial, Verdana, sans-serif;
+}
+h1,h2,h3,h4,h5,h6,strong,b {
+    font-family: 'robotobold';
+    font-weight: normal;
+}
+em,i {
+    font-family: 'robotoitalic';
+    font-style: normal;
+}
+#container {
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+}
+header {
+    background: #ccc;
+}
+header h1 {
+    margin: 0;
+}
+#logo {
+    padding: 20px;
+}
+#navigation {
+    float: left;
+    width: 100%;
+    background: #333;
+}
+#navigation ul {
+    margin: 0;
+    padding: 0;
+}
+#navigation ul li {
+    list-style-type: none;
+    display: inline;
+}
+#navigation li a {
+    display: block;
+    float: left;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+}
+#navigation li a:hover {
+    background: #c00;
+}
+main {
+    float: left;
+    width: 100%;
+}
+main > section {
+    float: left;
+    width: 100%;
+    background: #f2f2f2;
+}
+main > section > .sidebar {
+    display: inline;
+    width: 20%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px;
+}
+main > section > .sidebar.left {
+    float: left;
+}
+main > section > .sidebar.left ul {
+    margin: 0;
+    padding: 0;
+}
+main > section > .sidebar.left ul li {
+    margin: 0 0 1em;
+    padding: 0;
+    list-style-type: none;
+}
+#content {
+    float: left;
+    width: 60%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #fff;
+    border-width: 0 1px 0 1px;
+    border-color: #ccc;
+    border-style: solid;
+}
+#content h2 {
+    margin: 0;
+}
+main > section > .sidebar.right {
+    float: right;
+}
+main > section > .sidebar.right h3 {
+    margin: 0;
+}
+footer {
+    clear: both;
+    background: #ccc;
+    text-align: left;
+    padding: 20px;
+    height: 1%;
+}

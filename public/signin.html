@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <title>Contul meu</title>
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/session.js"></script>
+</head>
+<body>
+<div id="container">
+    <header>
+        <section id="logo">
+            <h1>
+                Contul meu
+            </h1>
+        </section>
+        <section id="navigation">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/admin/" target="_blank">Admin</a></li>
+                <li><a href="/nodeadmin/" target="_blank">Database</a></li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section>
+            <section  style="text-align:center">
+                <div id="status"></div>
+                <h3>Login</h3>
+                <div>
+                    <form name="login" id="login">
+                        <div class="form-group">
+                            <label for="Email">Email</label>
+                            <input type="text" name="email" placeholder="email" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Parola</label>
+                            <input type="password" name="password" placeholder="Password" class="form-control"/>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="login-button">Login</button>
+                    </form>
+                </div>
+                <hr>
+                <h3>Register</h3>
+                <div>
+                    <form name="register" id="register">
+                        <div class="form-group">
+                            <label for="Email">Email</label>
+                            <input type="text" name="email" placeholder="email" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Parola</label>
+                            <input type="password" name="password" placeholder="Password" class="form-control"/>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="register-button">Register</button>
+                    </form>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        Copyright &copy; 2018
+    </footer>
+</div>
+</body>
+</html>
