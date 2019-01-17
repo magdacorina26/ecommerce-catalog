@@ -21,6 +21,10 @@ EMAIL_USERNAME
 EMAIL_PASSWORD
 ```
 
+```$xslt
+Go to server-host/createdb to initalize the database
+```
+
 ```bash
 npm install
 ```
